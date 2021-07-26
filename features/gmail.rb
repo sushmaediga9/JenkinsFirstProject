@@ -15,12 +15,12 @@ And(/^Enter user name$/) do
 @browser.span(:text => 'Next').click
 sleep(5)
 end
-#And(/^Enter Password$/) do
+And(/^Enter Password$/) do
 # @browser.text_field(name: 'password').set 'abcabc#'
 # @browser.button(id: 'passwordNext').click
 # @browser.checkbox(id: 'c7' ).set false
-# #sleep(5)
-#end
+sleep(5)
+end
 #And(/^Click on signup button$/) do
 # @browser.button(id: 'signIn').click
 # #sleep(5)
